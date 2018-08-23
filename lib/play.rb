@@ -37,7 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-    while board < 9
-    puts "Please enter 1-9:"
+    moves = 0
+    while < 9
+    turn(board)
+    moves += 1
     end
 end
